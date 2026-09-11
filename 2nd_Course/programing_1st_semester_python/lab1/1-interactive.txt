@@ -1,0 +1,14 @@
+345/45+9+27*87
+456*34+3*76-450/2
+f=89
+k=23
+
+f-k
+f+k
+f*k
+f/k
+
+print(f-k)
+print(f+k)
+print(f*k)
+print(f/k)
