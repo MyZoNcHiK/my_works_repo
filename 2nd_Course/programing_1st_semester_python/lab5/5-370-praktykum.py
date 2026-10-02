@@ -1,0 +1,5 @@
+text = input()
+s = input()
+start = text.find(s)
+stop = text.rfind(s)
+print(text[:start] + text[stop+1:])
