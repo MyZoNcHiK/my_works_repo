@@ -1,4 +1,4 @@
-from cafe_class import Cafe
+from Cafe import Cafe
 
 all_cafe = Cafe("Пузата хата", "Бозна-яка там кухня")
 
