@@ -1,11 +1,10 @@
 def decorator(cls):
     class Wrapper(cls):
         def show_results(self):
-            results = [
-                self.first(),
-                self.second(),
-                self.third()
-            ]
+            results = []
+            
+            for methods in cls.__dict__.values():
+                results.append(method(self))
 
             print("Мінімальне значення:", min(results))
             print("Максимальне значення:", max(results))
